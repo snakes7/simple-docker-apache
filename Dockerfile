@@ -10,3 +10,7 @@ ADD . /var/www/html
 
 
 ENTRYPOINT apachectl -D FOREGROUND
+
+RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
+
+ENV name ABDUSSAMAD
