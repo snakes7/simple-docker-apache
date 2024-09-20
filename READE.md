@@ -37,10 +37,11 @@ docker build -t <your-image-name>
 
 ***note*** do not include a capital letter in the name
 
-##running the container
+## Running the Container
 docker run -it -d -p <portOnYourMachine>:80 <your-image-name>
 
-## Accessing the Container IF on an EC2 Instance
+## Accessing the Web Server
+## IF on an EC2 Instance
 http://<your-ec2-public-ip>:<portOnYourMachine>
 
 ## Accessing the Container IF on your local machin
