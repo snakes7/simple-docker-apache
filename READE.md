@@ -33,12 +33,12 @@ Simple-Docker-project/
 └── styles.css
 
 ## Building DockerImage
-docker build -t <your-image-name>
+docker build . -t <your-image-name>
 
 ***note*** do not include a capital letter in the name
 
 ## Running the Container
-docker run -it -d -p <portOnYourMachine>:80 <your-image-name>
+docker run -it  -p <portOnYourMachine>:80 <your-image-name>
 
 ## Accessing the Web Server
 ## IF on an EC2 Instance
